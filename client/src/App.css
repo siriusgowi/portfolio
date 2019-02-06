@@ -7,16 +7,26 @@
 	background-color: red;
 	color: white;
 	text-align: center;
+	display: flex;
+	width: 100%;
 }
 
 .sidebar-container {
 	background-color: green;
 	color: white;
+	border: 2px solid white;
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .content-container {
 	background-color: green;
 	color: white;
+	border: 2px solid white;
+	width: 100%;
 }
 
 .logo-area {
@@ -37,6 +47,8 @@
 .tagline-image {
 	background-color: blue;
 	color: white;
+	overflow: hidden;
+	height: 780px;
 }
 
 .content-list {

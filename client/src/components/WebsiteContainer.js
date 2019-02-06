@@ -8,7 +8,6 @@ class WebsiteContainer extends Component {
   render() {
     return (
         <div className="website-container">
-          <h1>Inside WebsiteContainer</h1>
           <SidebarContainer />
           <ContentContainer />
         </div>

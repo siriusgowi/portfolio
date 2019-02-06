@@ -6,7 +6,6 @@ class TaglineImage extends Component {
 	render() {
 		return (
 			<div className="tagline-image">
-				<h3>Inside TaglineImage</h3>
 				<TaglineDescription />
 			</div>
 		);
