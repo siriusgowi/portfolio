@@ -6,7 +6,7 @@ class TaglineImage extends Component {
 	render() {
 		return (
 			<div className="tagline-image">
-				<img src="./images/tagline.jpg" className="img-fluid float-right" alt="Jorge Alvarado" />
+				<img src="/images/tagline.JPG" className="img-fluid float-right" alt="Jorge Alvarado" />
 				<TaglineDescription />
 			</div>
 		);
