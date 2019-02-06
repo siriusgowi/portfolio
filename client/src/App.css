@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.website-container {
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.sidebar-container {
+	background-color: green;
+	color: white;
+}
+
+.content-container {
+	background-color: green;
+	color: white;
+}
+
+.logo-area {
+	background-color: blue;
+	color: white;
+}
+
+.sidebar-list {
+	background-color: blue;
+	color: white;
+}
+
+.sidebar {
+	background-color: cyan;
+	color: white;
+}
+
+.tagline-image {
+	background-color: blue;
+	color: white;
+}
+
+.content-list {
+	background-color: blue;
+	color: white;
+}
+
+.tagline-description {
+	background-color: cyan;
+	color: white;
+}
+
+.content {
+	background-color: cyan;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
