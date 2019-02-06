@@ -5,6 +5,7 @@ class TaglineDescription extends Component {
 	render() {
 		return (
 			<div className="tagline-description">
+				
 			</div>
 		);
 	}
