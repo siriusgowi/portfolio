@@ -1,24 +1,29 @@
 const express = require('express');
-const path = require('path');
+//const path = require('path');
 
-
-const port = process.env.PORT || 5000;
 
 
 // create new express app
-var app = express();
+const app = express();
 
 
-// middleware
-app.use(express.static(path.join(__dirname, 'client/src/index.js')));
 
 
-// respond to request
-app.get('/', (req, res) => {
-	res.send('<h1>Hello World!</h1>');
-});
+if (process.env.NODE_ENV === 'production') {
+	// express will serve up production assets
+	app.use(express.static('client/build'))
 
+	// express will serve up index.html if it doesn't recognize a route
+	const path = require('path');
+	app.get('*', (req, res) => {
+		res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+	});
+}
+
+
+
+const PORT = process.env.PORT || 5000;
 // bind application to port on machine
-app.listen(port, () => console.log(`We are listening on port ${port}`));
+app.listen(PORT, () => console.log(`We are listening on port ${PORT}`));
 
 
