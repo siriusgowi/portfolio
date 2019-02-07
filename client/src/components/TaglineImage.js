@@ -4,9 +4,10 @@ import TaglineDescription from './TaglineDescription';
 
 class TaglineImage extends Component {
 	render() {
+		const imgPath = process.env.PUBLIC_URL + '/images/tagline.jpg';
 		return (
 			<div className="tagline-image">
-				<img src="/images/tagline.jpg" className="img-fluid float-right" alt="Jorge Alvarado" />
+				<img src={imgPath} className="img-fluid float-right" alt="Jorge Alvarado" />
 				<TaglineDescription />
 			</div>
 		);
