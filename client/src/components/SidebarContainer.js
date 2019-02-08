@@ -8,7 +8,6 @@ class SidebarContainer extends Component {
 	render() {
 		return (
 			<div className="sidebar-container">
-				<h2>Inside SidebarContainer</h2>
 				<LogoArea />
 				<SidebarList />
 			</div>
