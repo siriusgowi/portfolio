@@ -35,6 +35,7 @@ class SidebarList extends Component {
 					<Sidebar
 						iconName={IoIosMail}
 						linkName="Contact" />
+					<li className="list list-group-item blank-list"></li>
 				</ul>
 			</div>
 		);

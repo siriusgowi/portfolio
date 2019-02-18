@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import tagline from '../tagline.jpg';
 import '../App.css';
+import tagline from '../images/tagline.jpg';
 import TaglineDescription from './TaglineDescription';
 
 class TaglineImage extends Component {
