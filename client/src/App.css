@@ -463,6 +463,75 @@ h2:first-child {
 }
 
 
+/*********************************************************
+	*** EXPERIENCE ***
+*********************************************************/
+.experience {
+	/*background-color: red;*/
+}
+
+.experience .container {
+	/*background-color: green;*/
+}
+
+.experience .card {
+	padding-left: 0;
+}
+
+.experience-logo {
+	/*background-color: red;*/
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-name {
+	/*background-color: cyan;*/
+	font-family: 'Antic Didone', serif;
+	color: #487e73;
+	font-size: 1.5em;
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.experience-title {
+	/*background-color: blue;*/
+	font-family: 'Raleway', sans-serif;
+	color: #795548;
+	font-size: 1.3em;
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.experience .list-group-item {
+	color: gray;
+}
+
+.experience li {
+	list-style-type: disc;
+	color: gray;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.experience .row:first-child {
+	margin-bottom: 20px;
+}
+
+.experience .card-footer {
+	padding-left: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
 
 
 

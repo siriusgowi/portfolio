@@ -15,6 +15,8 @@ import jquery from '../images/jquery.png';
 import booktracking from '../images/app-booktracking.png';
 import restaurant from '../images/app-restaurant.png';
 import frogger from '../images/app-frogger.png';
+import edgtacy from '../images/edgtacy-logo.jpg';
+import navy from '../images/navy-logo.png';
 
 
 
@@ -195,6 +197,89 @@ class ContentList extends Component {
 								  </div>
 								</div>
 
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				{/* EXPERIENCE */}
+				<h2 className="header">EXPERIENCE</h2>
+				<div className="experience">
+					<div className="container">
+						<div className="row">
+							<div className="col">
+								<div className="card">
+
+								  <div className="card-header">
+								  	<div className="row">
+									    <span className="col-lg-2 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
+									    <span className="col-lg-6 experience-name">EdgTacy</span>
+									    <span className="col-lg-4 experience-title">Founder & Developer</span>
+								    </div>
+								  </div>
+
+								  <div className="card-body">
+								  	<ul className="list-group">
+								  		<li>
+								  			Designed and programmed a custom shopping cart system
+								  		</li>
+								  		<li>
+								  			Applied responsive web design to make site inviting across an array of devices
+								  		</li>
+								  		<li>
+								  			Incorporated MySQL for data-management
+								  		</li>
+								  		<li>
+								  			Implemented Authorize.net as a payment gateway
+								  		</li>
+								  		<li>
+								  			Retouched photos using Photoshop 
+								  		</li>
+								  	</ul>
+								  </div>
+
+								  <div className="card-footer">
+								  	Aug 2016 - Feb 2018
+								  </div>
+
+								</div>
+							</div>
+						</div>
+
+						<div className="row">
+							<div className="col">
+								<div className="card">
+
+								  <div className="card-header">
+								  	<div className="row">
+									    <span className="col-lg-2 experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
+									    <span className="col-lg-6 experience-name">United States Navy</span>
+									    <span className="col-lg-4 experience-title">Guard</span>
+								    </div>
+								  </div>
+
+								  <div className="card-body">
+								  	<ul className="list-group">
+								  		<li>Website providing portrait retouching services using Photoshop</li>
+								  		<li>
+								  			Maintained order and control at internment facility in Iraq
+								  		</li>
+								  		<li>
+								  			Helped treat patients at military base clinic while also protecting the confidentiality of all information related to patient care
+								  		</li>
+								  		<li>
+								  			Rewarded Achievement Medal from Navy and Army, Good Conduct Medal and Iraq Campaign Medal
+								  		</li>
+								  	</ul>
+								  </div>
+
+								  <div className="card-footer">
+								  	Oct 2004 - Oct 2008
+								  </div>
+
+								</div>
 							</div>
 						</div>
 
