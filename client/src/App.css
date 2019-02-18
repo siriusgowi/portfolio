@@ -379,6 +379,44 @@ h2:first-child {
 }
 
 
+/*********************************************************
+	*** SKILLS ***
+*********************************************************/
+.skills {
+	/*background-color: red;*/
+}
+
+.skills .container {
+	/*background-color: green;*/
+	/*width: 90%;*/
+}
+
+.card {
+	/*background-color: blue;*/
+	padding-left: 10px;
+}
+
+.card-content {
+	/*background-color: cyan;*/
+}
+
+.lang {
+	/*background-color: yellow;*/
+}
+
+.card h4 {
+	color: gray;
+	margin-bottom: 3em;
+	text-align: left;
+	padding-left: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.card p {
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+}
+
 
 
 
