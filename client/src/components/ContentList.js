@@ -265,7 +265,6 @@ class ContentList extends Component {
 
 								  <div className="card-body">
 								  	<ul className="list-group">
-								  		<li>Website providing portrait retouching services using Photoshop</li>
 								  		<li>
 								  			Maintained order and control at internment facility in Iraq
 								  		</li>
