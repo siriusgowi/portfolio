@@ -17,6 +17,9 @@ import restaurant from '../images/app-restaurant.png';
 import frogger from '../images/app-frogger.png';
 import edgtacy from '../images/edgtacy-logo.jpg';
 import navy from '../images/navy-logo.png';
+import udacity from '../images/udacity-logo.png';
+import fiu from '../images/fiu-logo.png';
+import mdc from '../images/mdc-logo.png';
 
 
 
@@ -285,6 +288,76 @@ class ContentList extends Component {
 
 					</div>
 				</div>
+
+
+				{/* EDUCATION */}
+				<h2 className="header">EDUCATION</h2>
+				<div className="education">
+					<div className="container">
+
+						<div className="row">
+							<div className="col">
+								<div className="card">
+
+								  <div className="card-header">
+								  	<div className="row">
+									    <span className="col-lg-2 education-logo"><img src={udacity} alt="Udacity Logo" /></span>
+									    <span className="col-lg-6 education-name">Udacity</span>
+									    <span className="col-lg-4 education-title">Front-End Web Developer Nanodegree</span>
+								    </div>
+								  </div>
+
+								  <div className="card-footer">
+								  	May 2018 - Jan 2019
+								  </div>
+
+								</div>
+							</div>
+						</div>
+
+						<div className="row">
+							<div className="col">
+								<div className="card">
+
+								  <div className="card-header">
+								  	<div className="row">
+									    <span className="col-lg-2 education-logo"><img src={fiu} alt="FIU Logo" /></span>
+									    <span className="col-lg-6 education-name">Florida International University</span>
+									    <span className="col-lg-4 education-title">Biology</span>
+								    </div>
+								  </div>
+
+								  <div className="card-footer">
+								  	Aug 2011 - Apr 2013
+								  </div>
+
+								</div>
+							</div>
+						</div>
+
+						<div className="row">
+							<div className="col">
+								<div className="card">
+
+								  <div className="card-header">
+								  	<div className="row">
+									    <span className="col-lg-2 education-logo"><img src={mdc} alt="MDC Logo" /></span>
+									    <span className="col-lg-6 education-name">Miami Dade College</span>
+									    <span className="col-lg-4 education-title">Biology</span>
+								    </div>
+								  </div>
+
+								  <div className="card-footer">
+								  	Jan 2009 - Apr 2011
+								  </div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 
 
 

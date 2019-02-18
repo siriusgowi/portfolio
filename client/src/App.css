@@ -527,7 +527,62 @@ h2:first-child {
 }
 
 
+/*********************************************************
+	*** EDUCATION ***
+*********************************************************/
+.education .card {
+	padding-left: 0;
+}
 
+.education-logo {
+	/*background-color: red;*/
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-name {
+	/*background-color: cyan;*/
+	font-family: 'Antic Didone', serif;
+	color: #487e73;
+	font-size: 1.5em;
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.education-title {
+	/*background-color: blue;*/
+	font-family: 'Raleway', sans-serif;
+	color: #795548;
+	font-size: 1.3em;
+    min-height: 100px;
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+}
+
+.education .list-group-item {
+	color: gray;
+}
+
+.education li {
+	list-style-type: disc;
+	color: gray;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.education .row {
+	margin-bottom: 20px;
+}
+
+.education .card-footer {
+	padding-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	border-top: 0px;
+}
 
 
 
