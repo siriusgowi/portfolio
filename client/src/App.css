@@ -418,7 +418,49 @@ h2:first-child {
 }
 
 
+/*********************************************************
+	*** PROJECTS ***
+*********************************************************/
+.projects {
+	/*background-color: red;*/
+}
 
+.projects .container {
+	/*background-color: green;*/
+}
+
+.project-card {
+	height: 100%;
+	padding-left: 0;
+}
+
+.card-img-top {
+	height: 180px;
+}
+
+.card-title {
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+}
+
+.card-text {
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+
+.card-footer {
+	background-color: #fafafa;
+	color: gray;
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+}
+
+.technologies-used {
+	list-style-type: none;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+}
 
 
 

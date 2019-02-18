@@ -12,6 +12,9 @@ import react from '../images/react.png';
 import three from '../images/threejs.png';
 import bootstrap from '../images/bootstrap.png';
 import jquery from '../images/jquery.png';
+import booktracking from '../images/app-booktracking.png';
+import restaurant from '../images/app-restaurant.png';
+import frogger from '../images/app-frogger.png';
 
 
 
@@ -127,6 +130,75 @@ class ContentList extends Component {
 		  				</div>
 
 		  			</div>
+				</div>
+
+
+				{/* PROJECTS */}
+				<h2 className="header">PROJECTS</h2>
+				<div className="projects">
+					<div className="container">
+						<div className="row">
+							<div className="card-group">
+								<div className="col-lg-4">
+								  <div className="card project-card">
+								    <img className="card-img-top" src={booktracking} alt="Card image cap" />
+								    <div className="card-body">
+								      <h5 className="card-title">BookTracking App</h5>
+								      <p className="card-text">This application allows the user to select and categorize books that he/she has read, are currently reading, or want to read. There are two main pages, the home page for displaying the bookshelves and search page for allowing the user to search books. React was used to build the application. An API server and client library was used to persist data as the user interacts with the application.</p>
+								    </div>
+								    <div className="card-footer">
+								      <small className="text-muted">
+								      	<ul className="technologies-used">
+								      		<li>React</li>
+								      		<li>Book API</li>
+								      	</ul>
+								      </small>
+								    </div>
+								  </div>
+								</div>
+
+								<div className="col-lg-4">
+								  <div className="card project-card">
+								    <img className="card-img-top" src={restaurant} alt="Card image cap" />
+								    <div className="card-body">
+								      <h5 className="card-title">Restaurant Reviews App</h5>
+								      <p className="card-text">This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address.</p>
+								    </div>
+								    <div className="card-footer">
+								      <small className="text-muted">
+								      	<ul className="technologies-used">
+								      		<li>JavaScript</li>
+								      		<li>Service Worker</li>
+								      		<li>Web Accessibility</li>
+								      	</ul>
+								      </small>
+								    </div>
+								  </div>
+								</div>
+
+								<div className="col-lg-4">
+								  <div className="card project-card">
+								    <img className="card-img-top" src={frogger} alt="Card image cap" />
+								    <div className="card-body">
+								      <h5 className="card-title">Frogger Game App</h5>
+								      <p className="card-text">This application was based on a classic arcade game called "Frogger" in which the user's character must reach the water while crossing the grass and road. The challenge is to avoid the bugs that travel on the road. If the character collides with a bug, the character is reset back to the beginning. Upon reaching the water, the user wins the game and is reset back to the beginning.</p>
+								    </div>
+								    <div className="card-footer">
+								      <small className="text-muted">
+								      	<ul className="technologies-used">
+								      		<li>JavaScript</li>
+								      		<li>Google Maps API</li>
+								      		<li>Object-Oriented Programming</li>
+								      	</ul>
+								      </small>
+								    </div>
+								  </div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
 				</div>
 
 
