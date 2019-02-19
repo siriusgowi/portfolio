@@ -160,8 +160,8 @@ h2:first-child {
 }
 
 .about-right img {
-	position: absolute;
-	height: 200px;
+  position: absolute;
+  height: 200px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -582,6 +582,51 @@ h2:first-child {
 	padding-left: 50px;
 	font-family: 'Raleway', sans-serif;
 	border-top: 0px;
+}
+
+
+/*********************************************************
+	*** CONTACT ***
+*********************************************************/
+.contact {
+	/*background-color: red;*/
+	margin-bottom: 80px;
+}
+
+.contact .container {
+	/*background-color: green;*/
+}
+
+.contact p {
+	/*background-color: blue;*/
+	text-align: left;
+	padding-left: 3em;
+	margin-bottom: 0px;
+}
+
+.contact .card-header {
+	border-bottom: none;
+	border-top: none;
+}
+
+.contact a {
+	/*background-color: cyan;*/
+	text-decoration-color: #2b84ee;
+}
+
+.contact a span {
+	/*background-color: yellow;*/
+	color: #2b84ee;
+}
+
+.contact svg {
+	font-size: 3.8em;
+	color: #795548;
+	margin-right: 0.5em;
+}
+
+.contact .card {
+	padding-left: 0px;
 }
 
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import '../App.css';
 import buddha from '../images/buddha.jpg';
 import html from '../images/html.png';
@@ -20,6 +21,10 @@ import navy from '../images/navy-logo.png';
 import udacity from '../images/udacity-logo.png';
 import fiu from '../images/fiu-logo.png';
 import mdc from '../images/mdc-logo.png';
+/* REACT ICONS */
+import { IoIosMail } from 'react-icons/io';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { IoLogoGithub } from 'react-icons/io';
 
 
 
@@ -217,9 +222,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-lg-2 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
-									    <span className="col-lg-6 experience-name">EdgTacy</span>
-									    <span className="col-lg-4 experience-title">Founder & Developer</span>
+									    <span className="col-2 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
+									    <span className="col-6 experience-name">EdgTacy</span>
+									    <span className="col-4 experience-title">Founder & Developer</span>
 								    </div>
 								  </div>
 
@@ -257,9 +262,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-lg-2 experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
-									    <span className="col-lg-6 experience-name">United States Navy</span>
-									    <span className="col-lg-4 experience-title">Guard</span>
+									    <span className="col-2 experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
+									    <span className="col-6 experience-name">United States Navy</span>
+									    <span className="col-4 experience-title">Guard</span>
 								    </div>
 								  </div>
 
@@ -300,9 +305,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-lg-2 education-logo"><img src={udacity} alt="Udacity Logo" /></span>
-									    <span className="col-lg-6 education-name">Udacity</span>
-									    <span className="col-lg-4 education-title">Front-End Web Developer Nanodegree</span>
+									    <span className="col-2 education-logo"><img src={udacity} alt="Udacity Logo" /></span>
+									    <span className="col-6 education-name">Udacity</span>
+									    <span className="col-4 education-title">Front-End Web Developer Nanodegree</span>
 								    </div>
 								  </div>
 
@@ -320,9 +325,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-lg-2 education-logo"><img src={fiu} alt="FIU Logo" /></span>
-									    <span className="col-lg-6 education-name">Florida International University</span>
-									    <span className="col-lg-4 education-title">Biology</span>
+									    <span className="col-2 education-logo pl-4"><img src={fiu} alt="FIU Logo" /></span>
+									    <span className="col-6 education-name">Florida International University</span>
+									    <span className="col-4 education-title">Biology</span>
 								    </div>
 								  </div>
 
@@ -340,9 +345,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-lg-2 education-logo"><img src={mdc} alt="MDC Logo" /></span>
-									    <span className="col-lg-6 education-name">Miami Dade College</span>
-									    <span className="col-lg-4 education-title">Biology</span>
+									    <span className="col-2 education-logo"><img src={mdc} alt="MDC Logo" /></span>
+									    <span className="col-6 education-name">Miami Dade College</span>
+									    <span className="col-4 education-title">Biology</span>
 								    </div>
 								  </div>
 
@@ -357,6 +362,55 @@ class ContentList extends Component {
 					</div>
 				</div>
 
+
+				{/* CONTACT */}
+				<h2 className="header">CONTACT</h2>
+				<div className="contact">
+					<div className="container">
+						<div className="row">
+							<div className="col">
+								
+								<div className="card">
+									<div className="card-header">
+										<div className="row">
+											<p>
+												<a href="mailto:jalvaradoas39@outlook.com">
+													<IoIosMail />
+													<span>jalvaradoas39@outlook.com</span>
+												</a>
+											</p>									
+										</div>
+									</div>
+								</div>
+								<div className="card">
+									<div className="card-header">
+										<div className="row">
+											<p>
+												<a href="https://www.linkedin.com/in/jorge-alvarado-sd/" target="_blank" rel='noopener noreferrer'>
+													<IoLogoLinkedin />
+													<span>https://www.linkedin.com/in/jorge-alvarado-sd/</span>
+												</a>
+											</p>								
+										</div>
+									</div>
+								</div>								
+								<div className="card">
+									<div className="card-header">
+										<div className="row">
+											<p>
+												<a href="https://github.com/jalvaradoas39" target="_blank" rel='noopener noreferrer'>
+													<IoLogoGithub />
+													<span>https://github.com/jalvaradoas39</span>
+												</a>
+											</p>									
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
 
 
 
