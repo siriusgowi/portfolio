@@ -35,17 +35,26 @@ class ContentList extends Component {
 
 				{/* ABOUT */}
 				<h2 className="header">About</h2>
-				  <div className="blog-card alt">
-				    <div className="meta">
-				      <div className="photo"><img src={buddha} alt="buddha" /></div>
-				    </div>
+				<div className="about">
+					<div className="container">
+						<div className="row">
+							<div className="col">
 
-				    <div className="description">
-				      <h3 className="quote">Victorious warriors win in the mind before going to battle </h3>
-				      <h4 className="quote-author">- Sun Tzu</h4>
-				      <p>In 2004, I joined the military. Upon completion in 2008 with honorable discharge, I re-entered the civilian world and enrolled into college as a pre-med student. Into my third year, I was enthusiastic of the direction technology was heading and wanted to play a huge part in it, so I decided to drop out of school and teach myself to program. My new journey began with learning HTML, CSS and JavaScript on the front-end then shortly afterwards extending my reach into the back-end with PHP and MySQL. Since then my toolset and programming skills has continued to grow. I thrive in challenging environments and hate to be the smartest person in a room. This is why I'm excited to make a huge impact at a high growth company.</p>
-				    </div>
-				  </div>
+							  <div className="blog-card alt">
+							    <div className="meta">
+							      <div className="photo"><img src={buddha} alt="buddha" /></div>
+							    </div>
+							    <div className="description">
+							      <h3 className="quote">Victorious warriors win in the mind before going to battle </h3>
+							      <h4 className="quote-author">- Sun Tzu</h4>
+							      <p>In 2004, I joined the military. Upon completion in 2008 with honorable discharge, I re-entered the civilian world and enrolled into college as a pre-med student. Into my third year, I was enthusiastic of the direction technology was heading and wanted to play a huge part in it, so I decided to drop out of school and teach myself to program. My new journey began with learning HTML, CSS and JavaScript on the front-end then shortly afterwards extending my reach into the back-end with PHP and MySQL. Since then my toolset and programming skills has continued to grow. I thrive in challenging environments and hate to be the smartest person in a room. This is why I'm excited to make a huge impact at a high growth company.</p>
+							    </div>
+							  </div>
+
+							</div>
+						</div>
+					</div>					
+				</div>
 
 
 		  		{/* SKILLS */}
@@ -58,7 +67,6 @@ class ContentList extends Component {
 		  				<div className="card">
 		  					card
 		  					<div className="card-content">
-		  						card-content
 		  						<h4>Front-End</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
@@ -78,10 +86,8 @@ class ContentList extends Component {
 		  				</div>
 
 		  				<div className="card">
-		  					card
 		  					<div className="card-content">
-		  						card-content
-		  						<h4>Back-End</h4>
+		  						<h4 className="mt-4">Back-End</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
 		  								<img src={php} className="language-logo" alt="html" />
@@ -96,10 +102,8 @@ class ContentList extends Component {
 		  				</div>
 
 		  				<div className="card">
-		  					card
 		  					<div className="card-content">
-		  						card-content
-		  						<h4>Databases</h4>
+		  						<h4 className="mt-4">Databases</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
 		  								<img src={mysql} className="language-logo" alt="html" />
@@ -114,10 +118,8 @@ class ContentList extends Component {
 		  				</div>
 
 		  				<div className="card">
-		  					card
 		  					<div className="card-content">
-		  						card-content
-		  						<h4>Frameworks/Libraries</h4>
+		  						<h4 className="mt-4">Frameworks/Libraries</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
 		  								<img src={react} className="language-logo" alt="html" />
@@ -222,9 +224,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-2 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
-									    <span className="col-6 experience-name">EdgTacy</span>
-									    <span className="col-4 experience-title">Founder & Developer</span>
+									    <span className="col mr-5 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
+									    <span className="col experience-name">EdgTacy</span>
+									    <span className="col experience-title">Founder & Developer</span>
 								    </div>
 								  </div>
 
@@ -262,9 +264,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-2 experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
-									    <span className="col-6 experience-name">United States Navy</span>
-									    <span className="col-4 experience-title">Guard</span>
+									    <span className="col experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
+									    <span className="col experience-name">United States Navy</span>
+									    <span className="col experience-title">Guard</span>
 								    </div>
 								  </div>
 
@@ -305,9 +307,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-2 education-logo"><img src={udacity} alt="Udacity Logo" /></span>
-									    <span className="col-6 education-name">Udacity</span>
-									    <span className="col-4 education-title">Front-End Web Developer Nanodegree</span>
+									    <span className="col mr-5 education-logo"><img src={udacity} alt="Udacity Logo" /></span>
+									    <span className="col education-name">Udacity</span>
+									    <span className="col education-title">Front-End Web Developer Nanodegree</span>
 								    </div>
 								  </div>
 
@@ -325,9 +327,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-2 education-logo pl-4"><img src={fiu} alt="FIU Logo" /></span>
-									    <span className="col-6 education-name">Florida International University</span>
-									    <span className="col-4 education-title">Biology</span>
+									    <span className="col education-logo"><img src={fiu} alt="FIU Logo" /></span>
+									    <span className="col education-name">Florida International University</span>
+									    <span className="col education-title">Biology</span>
 								    </div>
 								  </div>
 
@@ -345,9 +347,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col-2 education-logo"><img src={mdc} alt="MDC Logo" /></span>
-									    <span className="col-6 education-name">Miami Dade College</span>
-									    <span className="col-4 education-title">Biology</span>
+									    <span className="col education-logo"><img src={mdc} alt="MDC Logo" /></span>
+									    <span className="col education-name">Miami Dade College</span>
+									    <span className="col education-title">Biology</span>
 								    </div>
 								  </div>
 
@@ -411,8 +413,6 @@ class ContentList extends Component {
 						</div>
 					</div>
 				</div>
-
-
 
 			</div>
 		);
