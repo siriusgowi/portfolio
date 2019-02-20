@@ -243,8 +243,8 @@ h2:first-child {
 /*********************************************************
 	*** SKILLS ***
 *********************************************************/
-.card {
-	padding-left: 10px;
+.skills .card {
+	padding: 10px;
 }
 
 .card h4 {
@@ -442,6 +442,65 @@ h2:first-child {
 }
 
 
+/*********************************************************
+	*** Navbar Overlay ***
+*********************************************************/
+.navbar-overlay {
+	background-color: #ffffff;
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+	display: none;
+}
+
+.navbar-overlay svg {
+	color: rgb(0, 128, 115);
+	font-size: 2.5em;
+}
+
+.nav-name {
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	line-height: 1.0;
+	font-family: 'Antic Didone', serif;
+	color: rgb(0, 128, 115);
+}
+
+.nav-title {
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.0em;
+	color: #795548;
+}
+
+
+
+
+
+.logo-area {
+	background-color: #fafafa;
+	padding: 8px;
+	color: rgb(0, 128, 115);
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	text-align: center;
+}
+
+.logo-name {
+	font-size: 2.45em;
+	line-height: 1.0;
+	font-family: 'Antic Didone', serif;
+}
+
+.logo-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.0em;
+	color: #795548;
+}
+
 
 
 
@@ -453,9 +512,20 @@ h2:first-child {
 	.sidebar-container {
 		display: none;
 	}
+	.navbar-overlay {
+		display: block;
+	}
+	.navbar-btn {
+		background-color: red;
+	}
+	.navbar-title {
+		background-color: green;
+	}
+
 	.content-container {
 		width: 100%;
 		margin-left: 0px;
+		margin-top: 64px;
 	}
 }
 
@@ -470,6 +540,7 @@ h2:first-child {
 	h2 {
 		text-align: center;
 		padding: 20px 70px;
+		margin-bottom: 2.09em;
 	}
 	.meta {
 		display: none;
@@ -481,6 +552,7 @@ h2:first-child {
 	  margin-top: 2.25rem;
 	}
 }
+
 /* For .blog-card */
 @media (min-width: 640px) {
   .blog-card {

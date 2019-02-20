@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Sidebar from './Sidebar';
-
 /* REACT ICONS */
 import { FaUserSecret } from 'react-icons/fa';
 import { GoTools } from 'react-icons/go';
