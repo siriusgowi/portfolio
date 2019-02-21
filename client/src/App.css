@@ -515,13 +515,6 @@ h2:first-child {
 	.navbar-overlay {
 		display: block;
 	}
-	.navbar-btn {
-		background-color: red;
-	}
-	.navbar-title {
-		background-color: green;
-	}
-
 	.content-container {
 		width: 100%;
 		margin-left: 0px;
@@ -547,6 +540,14 @@ h2:first-child {
 	}
 	.contact p {
 		padding-left: 0px;
+	}
+	.contact span {
+		width: 100%;
+		display: block;
+	}
+	.contact p {
+		text-align: center;
+		width: 100%;
 	}
 	.blog-card p:first-of-type {
 	  margin-top: 2.25rem;

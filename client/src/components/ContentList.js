@@ -224,9 +224,9 @@ class ContentList extends Component {
 
 								  <div className="card-header">
 								  	<div className="row">
-									    <span className="col mr-5 experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></span>
-									    <span className="col experience-name">EdgTacy</span>
-									    <span className="col experience-title">Founder & Developer</span>
+									    <p className="col experience-logo"><img src={edgtacy} alt="EdgTacy Logo" /></p>
+									    <p className="col experience-name">EdgTacy</p>
+									    <p className="col experience-title">Founder & Developer</p>
 								    </div>
 								  </div>
 
