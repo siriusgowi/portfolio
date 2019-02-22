@@ -151,7 +151,7 @@ class ContentList extends Component {
 					<div className="container">
 						<div className="row">
 							<div className="card-group">
-								<div className="col-lg-4">
+								<div className="col-lg-4 mb-4">
 								  <div className="card project-card">
 								    <img className="card-img-top" src={booktracking} alt="Card image cap" />
 								    <div className="card-body">
@@ -169,7 +169,7 @@ class ContentList extends Component {
 								  </div>
 								</div>
 
-								<div className="col-lg-4">
+								<div className="col-lg-4 mb-4">
 								  <div className="card project-card">
 								    <img className="card-img-top" src={restaurant} alt="Card image cap" />
 								    <div className="card-body">
@@ -188,7 +188,7 @@ class ContentList extends Component {
 								  </div>
 								</div>
 
-								<div className="col-lg-4">
+								<div className="col-lg-4 mb-4">
 								  <div className="card project-card">
 								    <img className="card-img-top" src={frogger} alt="Card image cap" />
 								    <div className="card-body">
