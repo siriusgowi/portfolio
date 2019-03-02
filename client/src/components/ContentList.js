@@ -161,8 +161,8 @@ class ContentList extends Component {
 								    <div className="card-footer">
 								      <small className="text-muted">
 								      	<ul className="technologies-used">
-								      		<li>React</li>
-								      		<li>Book API</li>
+								      		<li><a href="https://alvarado-booktracking-app.herokuapp.com" target="_blank" rel='noopener noreferrer'>View Online</a></li>
+								      		<li><a href="https://github.com/jalvaradoas39/book-tracking-app" target="_blank" rel='noopener noreferrer'>View Source</a></li>
 								      	</ul>
 								      </small>
 								    </div>
@@ -179,9 +179,8 @@ class ContentList extends Component {
 								    <div className="card-footer">
 								      <small className="text-muted">
 								      	<ul className="technologies-used">
-								      		<li>JavaScript</li>
-								      		<li>Service Worker</li>
-								      		<li>Web Accessibility</li>
+								      		<li><a href="https://alvarado-restaurant-review-app.herokuapp.com" target="_blank" rel='noopener noreferrer'>View Online</a></li>
+								      		<li><a href="https://github.com/jalvaradoas39/restaurant-review-app" target="_blank" rel='noopener noreferrer'>View Source</a></li>
 								      	</ul>
 								      </small>
 								    </div>
@@ -198,9 +197,8 @@ class ContentList extends Component {
 								    <div className="card-footer">
 								      <small className="text-muted">
 								      	<ul className="technologies-used">
-								      		<li>JavaScript</li>
-								      		<li>Google Maps API</li>
-								      		<li>Object-Oriented Programming</li>
+								      		<li><a href="https://jalvaradoas39.github.io/frogger-game/" target="_blank" rel='noopener noreferrer'>View Online</a></li>
+								      		<li><a href="https://github.com/jalvaradoas39/frogger-game" target="_blank" rel='noopener noreferrer'>View Source</a></li>
 								      	</ul>
 								      </small>
 								    </div>
