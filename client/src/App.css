@@ -550,8 +550,26 @@ h2:first-child {
 		width: 100%;
 	}
 	.blog-card p:first-of-type {
-	  margin-top: 2.25rem;
+	  	margin-top: 2.25rem;
 	}
+	.card-footer {
+		padding: 30;
+	}
+	.technologies-used li {
+		float: left;
+		width: 50%;
+		margin-bottom: 10px;
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.2em;
+	}
+	.education-title {
+		margin-left: 1.5em;
+	}
+	.experience-title {
+		margin-left: 1.5em;
+	}
+
 }
 
 /* For .blog-card */
