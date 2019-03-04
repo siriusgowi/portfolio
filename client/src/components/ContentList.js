@@ -231,7 +231,7 @@ class ContentList extends Component {
 								  <div className="card-body">
 								  	<ul className="list-group">
 								  		<li>
-								  			Designed and programmed a custom shopping cart system
+								  			Designed and programmed e-commerce site for portrait retouching using Photoshop
 								  		</li>
 								  		<li>
 								  			Applied responsive web design to make site inviting across an array of devices
@@ -241,9 +241,6 @@ class ContentList extends Component {
 								  		</li>
 								  		<li>
 								  			Implemented Authorize.net as a payment gateway
-								  		</li>
-								  		<li>
-								  			Retouched photos using Photoshop 
 								  		</li>
 								  	</ul>
 								  </div>
@@ -264,14 +261,14 @@ class ContentList extends Component {
 								  	<div className="row">
 									    <span className="col experience-logo"><img src={navy} alt="EdgTacy Logo" /></span>
 									    <span className="col experience-name">United States Navy</span>
-									    <span className="col experience-title">Guard</span>
+									    <span className="col experience-title">Undesignated</span>
 								    </div>
 								  </div>
 
 								  <div className="card-body">
 								  	<ul className="list-group">
 								  		<li>
-								  			Maintained order and control at internment facility in Iraq
+								  			Worked with superiors to accomplish team objectives
 								  		</li>
 								  		<li>
 								  			Helped treat patients at military base clinic while also protecting the confidentiality of all information related to patient care
