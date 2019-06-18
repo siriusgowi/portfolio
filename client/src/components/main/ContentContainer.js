@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import '../App.css';
-import TaglineImage from './TaglineImage';
-import ContentList from './ContentList';
+
 
 
 class ContentContainer extends Component {
+
+
+	
   render() {
   	return (
   		<div className="content-container">
-  			<TaglineImage />
-  			<ContentList />
+  			<h1>INSIDE CONTENT-CONTAINER</h1>
   		</div>
   	);
   }

@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../css/App.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 
-class NavbarOverlay extends Component {
-
-	myFunction = () => {
-
-	}
+class HamburgerMenu extends Component {
+	
 
 	render() {
 		return (
-			<div className="navbar-overlay shadow" id="navbar-overlay">
+			<div className="hamburger-menu shadow" id="hamburger-menu">
 
 				<div className="row">
 					<div className="col-1 pt-2 ml-2">
@@ -28,4 +25,4 @@ class NavbarOverlay extends Component {
 	}
 }
 
-export default NavbarOverlay;
+export default HamburgerMenu;
