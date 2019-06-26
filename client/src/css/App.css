@@ -92,12 +92,7 @@ h2:first-child {
 
 .sidebar-list {
 	background-color: #ffffff;
-	color: white;
 	height: 100%;
-}
-
-.sidebar {
-	color: white;
 }
 
 .list:hover {

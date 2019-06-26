@@ -1,10 +1,25 @@
 const express = require('express');
-//const path = require('path');
-
-
-
-// create new express app
 const app = express();
+const path = require('path');
+// config
+const keys = require('./config/keys');
+// data
+const data = require('./data/data.json');
+
+
+
+// middleware
+app.use(express.urlencoded( {extended: false} ));
+app.use(express.json());
+
+
+// @route 			GET /data
+// @description 	Get website data. Request made via react 'Container' component
+// @access 			Public
+app.get('/data', (req,res) => {
+	res.status(200).json(data);
+});
+
 
 
 
@@ -23,7 +38,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
 const PORT = process.env.PORT || 5000;
-// bind application to port on machine
+
 app.listen(PORT, () => console.log(`We are listening on port ${PORT}`));
 
 
