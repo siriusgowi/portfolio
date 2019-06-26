@@ -6,7 +6,7 @@ import SidebarList from './SidebarList';
 import ContentList from './ContentList';
 
 // Live or Development
-let live = false;
+let live = true;
 
 
 
