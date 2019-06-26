@@ -6,7 +6,7 @@ import SidebarList from './SidebarList';
 import ContentList from './ContentList';
 
 // Live or Development
-let live = true;
+let live = false;
 
 
 
@@ -24,7 +24,7 @@ class Container extends Component {
 		let url = '';
 
 		if (live) {
-			url = 'jorgealvarado.me';
+			url = 'jorgealvarado.me/data';
 		} else {
 			url = 'http://localhost:3000/data';
 		}
@@ -35,7 +35,6 @@ class Container extends Component {
 					contentList: res.data,
 					isLoading: false
 				});
-				console.log(this.state);
 			})
 			.catch(err => {
 				this.setState({
@@ -43,7 +42,6 @@ class Container extends Component {
 					isLoading: false
 				});
 			});
-			console.log(this.state);
 	}
 
 
