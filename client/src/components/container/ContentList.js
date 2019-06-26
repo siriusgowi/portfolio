@@ -1,5 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+// Components
+import TaglineImage from './TaglineImage';
+//import Content from './Content';
 
 
 
@@ -7,19 +10,8 @@ const ContentList = (props) => {
 
 
 	return (
-		<div className="sidebar-container">
-			<div className="sidebar-list">
-				<ul className="list-group">
-
-					<li className="list list-group-item">
-						<Link to="#" className="float-left">
-							<span className="link-name"></span>
-						</Link>
-					</li>
-
-					<li className="list list-group-item blank-list"></li>
-				</ul>
-			</div>
+		<div className="content-container">
+  			<TaglineImage />
 		</div>
 	);
 	

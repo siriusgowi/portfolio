@@ -1,12 +1,14 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
+import { ClipLoader } from 'react-spinners';
 
 // Components
 import SidebarList from './SidebarList';
 import ContentList from './ContentList';
+import NavbarOverlay from './NavbarOverlay';
 
 // Live or Development
-let live = true;
+let live = false;
 
 
 
@@ -35,6 +37,7 @@ class Container extends Component {
 					contentList: res.data,
 					isLoading: false
 				});
+				console.log(this.state);
 			})
 			.catch(err => {
 				this.setState({
@@ -47,16 +50,23 @@ class Container extends Component {
 
 	render() {
 		const { contentList, errors, isLoading } = this.state;
-		const { sidebar } = contentList;
 
 		if (errors) return <p>{errors.message}</p>
-		if (isLoading) return <p>Loading...</p>
+		if (isLoading) return (
+	        <ClipLoader
+	          sizeUnit={"px"}
+	          size={30}
+	          color={'#123abc'}
+	          loading={isLoading}
+	        />
+		);
 
 		return (
-			<Fragment>
-				<SidebarList sidebar={sidebar} />
+			<div className="website-container">
+				<SidebarList />
 				<ContentList contentList={contentList} />
-			</Fragment>
+				<NavbarOverlay />
+			</div>
 		);
 	}
 }
