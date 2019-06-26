@@ -8,7 +8,7 @@ import ContentList from './ContentList';
 import NavbarOverlay from './NavbarOverlay';
 
 // Live or Development
-let live = false;
+let live = true;
 
 
 
@@ -37,7 +37,6 @@ class Container extends Component {
 					contentList: res.data,
 					isLoading: false
 				});
-				console.log(this.state);
 			})
 			.catch(err => {
 				this.setState({
