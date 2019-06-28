@@ -86,22 +86,22 @@
 			"frameworks": {
 				"frameworkTitle": "Frameworks/Libraries",
 				"react": {
-					"imgURL": "../images/html.png",
+					"imgURL": "../images/react.png",
 					"imgAlt": "react",
 					"desc": "React"
 				},
 				"threejs": {
-					"imgURL": "../images/css.png",
+					"imgURL": "../images/threejs.png",
 					"imgAlt": "threejs",
 					"desc": "Three"
 				},
 				"bootstrap": {
-					"imgURL": "../images/javascript.png",
+					"imgURL": "../images/bootstrap.png",
 					"imgAlt": "bootstrap",
 					"desc": "Bootstrap"
 				},
 				"jquery": {
-					"imgURL": "../images/javascript.png",
+					"imgURL": "../images/jquery.png",
 					"imgAlt": "jquery",
 					"desc": "jQuery"
 				}
