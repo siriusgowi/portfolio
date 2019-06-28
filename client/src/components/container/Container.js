@@ -8,7 +8,7 @@ import ContentList from './ContentList';
 import NavbarOverlay from './NavbarOverlay';
 
 // Live or Development
-let live = false;
+let live = true;
 
 
 
