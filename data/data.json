@@ -28,6 +28,11 @@
 
 	"content": {
 
+		"tagline": {
+			"imgURL": "../images/tagline.jpg",
+			"imgAlt": "Jorge Alvarado"
+		},
+
 		"about": {
 			"title": "About",
 			"quote": "Victorious warriors win in the mind before going to battle",

@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Components
-import TaglineImage from './TaglineImage';
 import About from './content/About';
 import Skills from './content/Skills';
 
@@ -9,11 +8,16 @@ import Skills from './content/Skills';
 
 const ContentList = (props) => {
 	const { content } = props.contentList;
-	const { about, skills } = content;
+	const { tagline, about, skills } = content;
+	console.log(content);
 
 	return (
 		<div className="content-container">
-  			<TaglineImage />
+
+			<div className="tagline-image">
+				<img src={tagline.imgURL} className="img-fluid float-right" alt={tagline.imgAlt} />
+			</div>
+
   			<div>
   				<About about={about} />
   				<Skills skills={skills} />
