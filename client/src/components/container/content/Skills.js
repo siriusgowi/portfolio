@@ -1,5 +1,16 @@
 import React, { Fragment } from 'react';
-
+// Images
+import htmlImg from '../../../images/html.png';
+import cssImg from '../../../images/css.png';
+import javascriptImg from '../../../images/javascript.png';
+import phpImg from '../../../images/php.png';
+import nodejsImg from '../../../images/nodejs.png';
+import mysqlImg from '../../../images/mysql.png';
+import mongodbImg from '../../../images/mongodb.png';
+import reactImg from '../../../images/react.png';
+import threejsImg from '../../../images/threejs.png';
+import bootstrapImg from '../../../images/bootstrap.png';
+import jqueryImg from '../../../images/jquery.png';
 
 
 const Skills = (props) => {
@@ -22,15 +33,15 @@ const Skills = (props) => {
 		  						<h4>{frontendTitle}</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
-		  								<img src={html.imgURL} className="language-logo" alt={html.imgAlt} />
+		  								<img src={htmlImg} className="language-logo" alt={html.imgAlt} />
 		  								<p>{html.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={css.imgURL} className="language-logo" alt={css.imgAlt} />
+		  								<img src={cssImg} className="language-logo" alt={css.imgAlt} />
 		  								<p>{css.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={javascript.imgURL} className="language-logo" alt={javascript.imgAlt} />
+		  								<img src={javascriptImg} className="language-logo" alt={javascript.imgAlt} />
 		  								<p>{javascript.desc}</p>
 		  							</div>
 		  						</div>
@@ -42,11 +53,11 @@ const Skills = (props) => {
 		  						<h4 className="mt-4">{backendTitle}</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
-		  								<img src={php.imgURL} className="language-logo" alt={php.imgAlt} />
+		  								<img src={phpImg} className="language-logo" alt={php.imgAlt} />
 		  								<p>{php.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={nodejs.imgURL} className="language-logo" alt={nodejs.imgAlt} />
+		  								<img src={nodejsImg} className="language-logo" alt={nodejs.imgAlt} />
 		  								<p>{nodejs.desc}</p>
 		  							</div>
 		  						</div>
@@ -58,11 +69,11 @@ const Skills = (props) => {
 		  						<h4 className="mt-4">{databaseTitle}</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
-		  								<img src={mysql.imgURL} className="language-logo" alt={mysql.imgAlt} />
+		  								<img src={mysqlImg} className="language-logo" alt={mysql.imgAlt} />
 		  								<p>{mysql.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={mongoDB.imgURL} className="language-logo" alt={mongoDB.imgAlt} />
+		  								<img src={mongodbImg} className="language-logo" alt={mongoDB.imgAlt} />
 		  								<p>{mongoDB.desc}</p>
 		  							</div>
 		  						</div>
@@ -74,19 +85,19 @@ const Skills = (props) => {
 		  						<h4 className="mt-4">{frameworkTitle}</h4>
 		  						<div className="row">
 		  							<div className="col-lg-2 lang">
-		  								<img src={react.imgURL} className="language-logo" alt={react.imgAlt} />
+		  								<img src={reactImg} className="language-logo" alt={react.imgAlt} />
 		  								<p>{react.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={threejs.imgURL} className="language-logo" alt={threejs.imgAlt} />
+		  								<img src={threejsImg} className="language-logo" alt={threejs.imgAlt} />
 		  								<p>{threejs.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={bootstrap.imgURL} className="language-logo" alt={bootstrap.imgAlt} />
+		  								<img src={bootstrapImg} className="language-logo" alt={bootstrap.imgAlt} />
 		  								<p>{bootstrap.desc}</p>
 		  							</div>
 		  							<div className="col-lg-2 lang">
-		  								<img src={jquery.imgURL} className="language-logo" alt={jquery.imgAlt} />
+		  								<img src={jqueryImg} className="language-logo" alt={jquery.imgAlt} />
 		  								<p>{jquery.desc}</p>
 		  							</div>
 		  						</div>

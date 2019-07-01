@@ -14,11 +14,8 @@ const ContentList = (props) => {
 	return (
 		<div className="content-container">
 			<TaglineImage tagline={tagline} />
-
-  			<div>
-  				<About about={about} />
-  				<Skills skills={skills} />
-  			</div>
+			<About about={about} />
+			<Skills skills={skills} />
 		</div>
 	);
 	
