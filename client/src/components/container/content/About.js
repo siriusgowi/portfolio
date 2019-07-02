@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 // Images
-import buddhaImg from '../../../images/buddha.jpg';
+//import buddhaImg from '../../../images/buddha.jpg';
 
 
 
 const About = (props) => {
-	const { title, imgAlt, quote, quoteAuthor, bio } = props.about;
+	const { title, imgURL, imgAlt, quote, quoteAuthor, bio } = props.about;
 
 
 	return (
@@ -18,7 +18,7 @@ const About = (props) => {
 
 						  <div className="blog-card alt">
 						    <div className="meta">
-						      <div className="photo"><img src={buddhaImg} alt={imgAlt} /></div>
+						      <div className="photo"><img src={imgURL} alt={imgAlt} /></div>
 						    </div>
 						    <div className="description">
 						      <h3 className="quote">{quote} </h3>
