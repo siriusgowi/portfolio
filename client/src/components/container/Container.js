@@ -7,8 +7,9 @@ import SidebarList from './SidebarList';
 import ContentList from './ContentList';
 import NavbarOverlay from './NavbarOverlay';
 
+
 // Live or Development
-let live = false;
+let live = true;
 
 
 
@@ -28,7 +29,7 @@ class Container extends Component {
 		if (live) {
 			url = 'jorgealvarado.me/data';
 		} else {
-			url = 'http://localhost:3000/data';
+			url = 'http://localhost:3000/data/data.json';
 		}
 
 		await axios.get(url)
