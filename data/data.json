@@ -29,7 +29,7 @@
 	"content": {
 
 		"tagline": {
-			"imgURL": "../images/tagline.jpg",
+			"imgURL": "tagline.jpg",
 			"imgAlt": "Jorge Alvarado"
 		},
 

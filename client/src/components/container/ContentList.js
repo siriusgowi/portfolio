@@ -10,6 +10,7 @@ import TaglineImage from './content/TaglineImage';
 const ContentList = (props) => {
 	const { content } = props.contentList;
 	const { tagline } = content;
+	//console.log(tagline);
 
 	return (
 		<div className="content-container">

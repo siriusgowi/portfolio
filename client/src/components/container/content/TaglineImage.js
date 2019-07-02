@@ -1,18 +1,19 @@
 import React from 'react';
 // Images
-import taglineImg from '../../../images/tagline.jpg';
+//import taglineImg from '../../../images/tagline.jpg';
 
 
 
 const TaglineImage = (props) => {
-	const { imgAlt } = props.tagline;
+	const { imgAlt, imgURL } = props.tagline;
+	//console.log(imgAlt);
 
 
 	return (
 		<div className="tagline-image">
-			<img src={taglineImg} className="img-fluid float-right" alt={imgAlt} />
+			<img src={`/images/${imgURL}`} className="img-fluid float-right" alt={imgAlt} />
 		</div>
 	);
-}
+};
 
 export default TaglineImage;
