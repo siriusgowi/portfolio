@@ -6,7 +6,6 @@ import React from 'react';
 
 const TaglineImage = (props) => {
 	const { imgAlt, imgURL } = props.tagline;
-	//console.log(imgAlt);
 
 
 	return (

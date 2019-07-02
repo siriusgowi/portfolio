@@ -22,7 +22,7 @@ class Container extends Component {
 		}
 	}
 
-	componentDidMount() {
+	async componentDidMount() {
 		let url = '';
 
 		if (live) {
@@ -31,7 +31,7 @@ class Container extends Component {
 			url = 'http://localhost:3000/data';
 		}
 
-		axios.get(url)
+		await axios.get(url)
 			.then(res => {
 				this.setState({
 					contentList: res.data,
