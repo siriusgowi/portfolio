@@ -3,8 +3,7 @@ const app = express();
 const path = require('path');
 // config
 const keys = require('./config/keys');
-// data
-const data = require('./data/data.json');
+
 
 
 

@@ -1,4 +1,4 @@
-{
+export const data = {
 	"sidebar": [
 		{
 			"title": "About",
@@ -190,4 +190,6 @@
 	}
 
 }
+
+
 

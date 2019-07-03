@@ -1,16 +1,21 @@
 import React from 'react';
-// Images
-//import taglineImg from '../../../images/tagline.jpg';
+
 
 
 
 const TaglineImage = (props) => {
-	const { imgAlt, imgURL } = props.tagline;
-
+	const { content } = props.contentList;
 
 	return (
 		<div className="tagline-image">
-			<img src={`/images/${imgURL}`} className="img-fluid float-right" alt={imgAlt} />
+			{!content ? (<p>Loading</p>) : (
+
+				<div className="tagline-image">
+					<img src={`/images/${content.tagline.imgURL}`} className="img-fluid float-right" alt="Jorge Alvarado" />
+
+				</div>
+
+			)}
 		</div>
 	);
 };
