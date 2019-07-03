@@ -4,14 +4,15 @@ import React from 'react';
 
 
 const TaglineImage = (props) => {
-	const { content } = props.contentList;
+	const { tagline } = props.contentList;
+
 
 	return (
 		<div className="tagline-image">
-			{!content ? (<p>Loading</p>) : (
+			{!tagline ? "(<p>Loading...</p>)" : (
 
 				<div className="tagline-image">
-					<img src={`/images/${content.tagline.imgURL}`} className="img-fluid float-right" alt="Jorge Alvarado" />
+					<img src={`/images/${tagline.imgURL}`} className="img-fluid float-right" alt="Jorge Alvarado" />
 
 				</div>
 

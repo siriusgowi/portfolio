@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import axios from 'axios';
 
 // Data
 import { data } from '../../data/content.js';
@@ -18,20 +17,15 @@ class ContentList extends Component {
 
 
 	async componentDidMount() {
-		//console.log(data);
-
-		//console.log(this.state);
 		await this.setState({
-			contentList: data
+			contentList: data.content
 		});
-		//console.log(this.state);
 	}
 
 
 	render() {
 		const { contentList } = this.state;
 
-		//console.log(contentList);
 		return (
 			<div className="content-container">
 				<TaglineImage contentList={contentList} />
