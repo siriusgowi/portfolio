@@ -44,8 +44,8 @@ export const data = {
 
 		"skills": {
 			"title": "Skills",
-			"frontEnd": {
-				"frontendTitle": "Front-End",
+			"frontend": {
+				"title": "Front-End",
 				"html": {
 					"imgURL": "../images/html.png",
 					"imgAlt": "html",
@@ -56,14 +56,14 @@ export const data = {
 					"imgAlt": "css",
 					"desc": "CSS"
 				},
-				"javascript": {
+				"js": {
 					"imgURL": "../images/javascript.png",
 					"imgAlt": "javascript",
 					"desc": "JavaScript"
 				}
 			},
-			"backEnd": {
-				"backendTitle": "Back-End",
+			"backend": {
+				"title": "Back-End",
 				"php": {
 					"imgURL": "../images/php.png",
 					"imgAlt": "php",
@@ -76,7 +76,7 @@ export const data = {
 				}
 			},
 			"databases": {
-				"databaseTitle": "Databases",
+				"title": "Databases",
 				"mysql": {
 					"imgURL": "../images/mysql.png",
 					"imgAlt": "mysql",
@@ -89,7 +89,7 @@ export const data = {
 				}
 			},
 			"frameworks": {
-				"frameworkTitle": "Frameworks/Libraries",
+				"title": "Frameworks/Libraries",
 				"react": {
 					"imgURL": "../images/react.png",
 					"imgAlt": "react",
