@@ -7,6 +7,7 @@ import { data } from '../../data/content.js';
 import TaglineImage from './content/TaglineImage';
 import About from './content/About';
 import Skills from './content/Skills';
+import Projects from './content/Projects';
 
 
 class ContentList extends Component {
@@ -31,7 +32,8 @@ class ContentList extends Component {
 				<TaglineImage contentList={contentList} />
 				<About contentList={contentList} />
 				<Skills contentList={contentList} />
-				
+				<Projects contentList={contentList} />
+
 			</div>
 		);
 	}

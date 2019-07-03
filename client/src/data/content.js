@@ -47,17 +47,17 @@ export const data = {
 			"frontend": {
 				"title": "Front-End",
 				"html": {
-					"imgURL": "../images/html.png",
+					"imgURL": "html.png",
 					"imgAlt": "html",
 					"desc": "HTML"
 				},
 				"css": {
-					"imgURL": "../images/css.png",
+					"imgURL": "css.png",
 					"imgAlt": "css",
 					"desc": "CSS"
 				},
 				"js": {
-					"imgURL": "../images/javascript.png",
+					"imgURL": "javascript.png",
 					"imgAlt": "javascript",
 					"desc": "JavaScript"
 				}
@@ -65,12 +65,12 @@ export const data = {
 			"backend": {
 				"title": "Back-End",
 				"php": {
-					"imgURL": "../images/php.png",
+					"imgURL": "php.png",
 					"imgAlt": "php",
 					"desc": "PHP"
 				},
 				"nodejs": {
-					"imgURL": "../images/nodejs.png",
+					"imgURL": "nodejs.png",
 					"imgAlt": "nodejs",
 					"desc": "NodeJS"
 				}
@@ -78,12 +78,12 @@ export const data = {
 			"databases": {
 				"title": "Databases",
 				"mysql": {
-					"imgURL": "../images/mysql.png",
+					"imgURL": "mysql.png",
 					"imgAlt": "mysql",
 					"desc": "MySQL"
 				},
 				"mongoDB": {
-					"imgURL": "../images/mongodb.png",
+					"imgURL": "mongodb.png",
 					"imgAlt": "mongoDB",
 					"desc": "MongoDB"
 				}
@@ -91,22 +91,22 @@ export const data = {
 			"frameworks": {
 				"title": "Frameworks/Libraries",
 				"react": {
-					"imgURL": "../images/react.png",
+					"imgURL": "react.png",
 					"imgAlt": "react",
 					"desc": "React"
 				},
 				"threejs": {
-					"imgURL": "../images/threejs.png",
+					"imgURL": "threejs.png",
 					"imgAlt": "threejs",
 					"desc": "Three"
 				},
 				"bootstrap": {
-					"imgURL": "../images/bootstrap.png",
+					"imgURL": "bootstrap.png",
 					"imgAlt": "bootstrap",
 					"desc": "Bootstrap"
 				},
 				"jquery": {
-					"imgURL": "../images/jquery.png",
+					"imgURL": "jquery.png",
 					"imgAlt": "jquery",
 					"desc": "jQuery"
 				}
@@ -115,27 +115,27 @@ export const data = {
 		},
 
 		"projects": {
-			"title": "PROJECTS",
-			"booktrackingApp": {
-				"imgURL": "../images/app-booktracking.png",
+			"title": "Projects",
+			"booktracking": {
+				"title": "BookTracking App",
+				"imgURL": "app-booktracking.png",
 				"imgAlt": "BookTracking App",
-				"appURL": "https://alvarado-booktracking-app.herokuapp.com",
+				"projectURL": "https://alvarado-booktracking-app.herokuapp.com",
 				"codeURL": "https://github.com/jalvaradoas39/book-tracking-app",
-				"booktrackingTitle": "BookTracking App",
 				"desc": "This application allows the user to select and categorize books that he/she has read, are currently reading, or want to read. There are two main pages, the home page for displaying the bookshelves and search page for allowing the user to search books. React was used to build the application. An API server and client library was used to persist data as the user interacts with the application."
 			},
-			"restaurantReviewApp": {
-				"imgURL": "../images/app-restaurant.png",
+			"restaurantreview": {
+				"title": "Restaurant Reviews App",
+				"imgURL": "app-restaurant.png",
 				"imgAlt": "Restaurant Reviews App",
-				"appURL": "https://alvarado-restaurant-review-app.herokuapp.com",
+				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
 				"codeURL": "https://github.com/jalvaradoas39/restaurant-review-app",
-				"restaurantReviewTitle": "Restaurant Reviews App",
 				"desc": "This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address."
 			}
 		},
 
 		"experience": {
-			"title": "EXPERIENCE",
+			"title": "Experience",
 			"edgtacy": {
 				"imgURL": "",
 				"imgAlt": "EdgTacy",
