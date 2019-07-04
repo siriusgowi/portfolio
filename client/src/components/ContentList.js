@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
 // Data
-import { data } from '../../data/content.js';
+import { data } from '../data/data.js';
 
 // Components
-import TaglineImage from './content/TaglineImage';
-import About from './content/About';
-import Skills from './content/Skills';
-import Projects from './content/Projects';
-import Experience from './content/Experience';
-import Education from './content/Education';
+import TaglineImage from './TaglineImage';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Experience from './Experience';
+import Education from './Education';
+import Contact from './Contact';
 
 
 class ContentList extends Component {
@@ -37,7 +38,7 @@ class ContentList extends Component {
 				<Projects contentList={contentList} />
 				<Experience contentList={contentList} />
 				<Education contentList={contentList} />
-
+				<Contact contentList={contentList} />
 			</div>
 		);
 	}

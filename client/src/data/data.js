@@ -182,17 +182,17 @@ export const data = {
 				"degree": "Biology",
 				"date": "Jan 2009 - Apr 2011"
 			}
+		},
+
+		"contact": {
+			"title": "Contact",
+			"email": "jalvaradoas39@outlook.com",
+			"social": {
+				"linkedinURL": "https://www.linkedin.com/in/jorge-alvarado-sd/",
+				"githubURL": "https://github.com/jalvaradoas39"
+			}
 		}
 
-	},
-
-	"contact": {
-		"email": "jalvaradoas39@outlook.com"
-	},
-
-	"socialMediaURL": {
-		"linkedin": "https://www.linkedin.com/in/jorge-alvarado-sd/",
-		"github": "https://github.com/jalvaradoas39"
 	}
 
 }

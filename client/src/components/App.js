@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Components
-import Container from './container/Container';
+import Container from './Container';
 
 
 
