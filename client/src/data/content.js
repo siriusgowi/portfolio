@@ -162,16 +162,22 @@ export const data = {
 		"education": {
 			"title": "Education",
 			"udacity": {
+				"imgURL": "udacity-logo.png",
+				"imgAlt": "Udacity",
 				"school": "Udacity",
 				"degree": "Front-End Web Developer Nanodegree",
 				"date": "May 2018 - Jan 2019"
 			},
 			"fiu": {
+				"imgURL": "fiu-logo.png",
+				"imgAlt": "Florida International University",
 				"school": "Florida International University",
 				"degree": "Biology",
 				"date": "Aug 2011 - Apr 2013"
 			},
 			"mdc": {
+				"imgURL": "mdc-logo.png",
+				"imgAlt": "Miami Dade College",
 				"school": "Miami Dade College",
 				"degree": "Biology",
 				"date": "Jan 2009 - Apr 2011"
