@@ -8,6 +8,7 @@ import TaglineImage from './content/TaglineImage';
 import About from './content/About';
 import Skills from './content/Skills';
 import Projects from './content/Projects';
+import Experience from './content/Experience';
 
 
 class ContentList extends Component {
@@ -33,6 +34,7 @@ class ContentList extends Component {
 				<About contentList={contentList} />
 				<Skills contentList={contentList} />
 				<Projects contentList={contentList} />
+				<Experience contentList={contentList} />
 
 			</div>
 		);

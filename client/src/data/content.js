@@ -137,9 +137,9 @@ export const data = {
 		"experience": {
 			"title": "Experience",
 			"edgtacy": {
-				"imgURL": "",
+				"company": "EdgTacy",
+				"imgURL": "edgtacy-logo.jpg",
 				"imgAlt": "EdgTacy",
-				"edgtacyTitle": "EdgTacy",
 				"role": "Founder & Developer",
 				"date": "Aug 2016 - Feb 2018",
 				"bullet01": "Designed and programmed e-commerce site for portrait retouching using Photoshop",
@@ -148,9 +148,9 @@ export const data = {
 				"bullet04": "Implemented Authorize.net as a payment gateway"
 			},
 			"navy": {
-				"imgURL": "",
+				"company": "United States Navy",
+				"imgURL": "navy-logo.png",
 				"imgAlt": "Navy",
-				"navyTitle": "United States Navy",
 				"role": "Undesignated",
 				"date": "Oct 2004 - Oct 2008",
 				"bullet01": "Worked with superiors to accomplish team objectives",
@@ -160,7 +160,7 @@ export const data = {
 		},
 
 		"education": {
-			"title": "EDUCATION",
+			"title": "Education",
 			"udacity": {
 				"school": "Udacity",
 				"degree": "Front-End Web Developer Nanodegree",
