@@ -118,7 +118,8 @@ export const data = {
 			"title": "Projects",
 			"booktracking": {
 				"title": "BookTracking App",
-				"imgURL": "app-booktracking.png",
+				//"imgURL": "app-booktracking.png",
+				"imgURL": "booktracking-app.png",
 				"imgAlt": "BookTracking App",
 				"projectURL": "https://alvarado-booktracking-app.herokuapp.com",
 				"codeURL": "https://github.com/jalvaradoas39/book-tracking-app",
@@ -126,11 +127,21 @@ export const data = {
 			},
 			"restaurantreview": {
 				"title": "Restaurant Reviews App",
-				"imgURL": "app-restaurant.png",
+				// "imgURL": "app-restaurant.png",
+				"imgURL": "restaurant-app.png",
 				"imgAlt": "Restaurant Reviews App",
 				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
 				"codeURL": "https://github.com/jalvaradoas39/restaurant-review-app",
 				"desc": "This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address."
+			},
+			"edgtacy": {
+				"title": "Ecommerce",
+				// "imgURL": "app-restaurant.png",
+				"imgURL": "edgtacy-app.png",
+				"imgAlt": "E-Commerce App",
+				"projectURL": "https://edgtacy.herokuapp.com/",
+				"codeURL": "https://github.com/jalvaradoas39/edgtacy",
+				"desc": "As the Founder and principal engineer of EdgTacy, I shaped the design and implementation of software and web-based solutions. Integrated MySQL data-management system to store information. Applied responsive web design for device optimization to engage consumers through multi-channel marketing. Implemented Authorize.net as a payment gateway to streamline operations."
 			}
 		},
 

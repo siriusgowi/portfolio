@@ -270,10 +270,6 @@ h2:first-child {
 	padding-left: 0;
 }
 
-.card-img-top {
-	height: 180px;
-}
-
 .card-title {
 	color: gray;
 	font-family: 'Raleway', sans-serif;
