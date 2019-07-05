@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Components
 import LogoArea from './LogoArea';
@@ -19,50 +18,50 @@ const SidebarList = () => {
 	return (
 		<div className="sidebar-container">
 			<LogoArea />
-			<div className="sidebar-list">
+			<nav className="sidebar-list">
 				<ul className="list-group">
 
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-1" className="float-left">
 							<FaUserSecret />
 							<span className="link-name">About</span>
-						</Link>
+						</a>
 					</li>
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-2" className="float-left">
 							<GoTools />
 							<span className="link-name">Skills</span>
-						</Link>
+						</a>
 					</li>
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-3" className="float-left">
 							<FaClipboardList />
 							<span className="link-name">Projects</span>
-						</Link>
+						</a>
 					</li>
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-4" className="float-left">
 							<IoMdTrendingUp />
 							<span className="link-name">Experience</span>
-						</Link>
+						</a>
 					</li>
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-5" className="float-left">
 							<IoMdSchool />
 							<span className="link-name">Education</span>
-						</Link>
+						</a>
 					</li>
 					<li className="list list-group-item">
-						<Link to="#" className="float-left">
+						<a href="#list-item-6" className="float-left">
 							<IoIosMail />
 							<span className="link-name">Contact</span>
-						</Link>
+						</a>
 					</li>
 
 					<li className="list list-group-item blank-list"></li>
 
 				</ul>
-			</div>
+			</nav>
 		</div>
 	);
 	

@@ -14,7 +14,7 @@ const Education = (props) => {
 			{!education ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header">{education.title}</h2>
+					<h2 className="header" id="list-item-5">{education.title}</h2>
 					<div className="education">
 						<div className="container">
 

@@ -14,7 +14,7 @@ const Projects = (props) => {
 			{!projects ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header">{projects.title}</h2>
+					<h2 className="header" id="list-item-3">{projects.title}</h2>
 					<div className="projects">
 						<div className="container">
 							<div className="row">

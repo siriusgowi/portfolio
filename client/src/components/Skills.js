@@ -13,7 +13,7 @@ const Skills = (props) => {
 			{!skills ? (<p>Loading...</p>) : (
 
 			<Fragment>
-				<h2 className="header">{skills.title}</h2>
+				<h2 className="header" id="list-item-2">{skills.title}</h2>
 				<div className="skills">
 					<div className="container">
 

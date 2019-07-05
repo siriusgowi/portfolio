@@ -118,7 +118,6 @@ export const data = {
 			"title": "Projects",
 			"booktracking": {
 				"title": "BookTracking App",
-				//"imgURL": "app-booktracking.png",
 				"imgURL": "booktracking-app.png",
 				"imgAlt": "BookTracking App",
 				"projectURL": "https://alvarado-booktracking-app.herokuapp.com",
@@ -127,7 +126,6 @@ export const data = {
 			},
 			"restaurantreview": {
 				"title": "Restaurant Reviews App",
-				// "imgURL": "app-restaurant.png",
 				"imgURL": "restaurant-app.png",
 				"imgAlt": "Restaurant Reviews App",
 				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
@@ -136,7 +134,6 @@ export const data = {
 			},
 			"edgtacy": {
 				"title": "Ecommerce",
-				// "imgURL": "app-restaurant.png",
 				"imgURL": "edgtacy-app.png",
 				"imgAlt": "E-Commerce App",
 				"projectURL": "https://edgtacy.herokuapp.com/",

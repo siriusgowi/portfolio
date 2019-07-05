@@ -18,7 +18,7 @@ const Contact = (props) => {
 			{!contact ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header">{contact.title}</h2>
+					<h2 className="header" id="list-item-6">{contact.title}</h2>
 					<div className="contact">
 						<div className="container">
 							<div className="row">

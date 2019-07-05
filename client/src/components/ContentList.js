@@ -31,7 +31,7 @@ class ContentList extends Component {
 		const { contentList } = this.state;
 
 		return (
-			<div className="content-container">
+			<main className="content-container">
 				<TaglineImage contentList={contentList} />
 				<About contentList={contentList} />
 				<Skills contentList={contentList} />
@@ -39,7 +39,7 @@ class ContentList extends Component {
 				<Experience contentList={contentList} />
 				<Education contentList={contentList} />
 				<Contact contentList={contentList} />
-			</div>
+			</main>
 		);
 	}
 
