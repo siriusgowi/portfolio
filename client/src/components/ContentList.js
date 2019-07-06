@@ -31,7 +31,7 @@ class ContentList extends Component {
 		const { contentList } = this.state;
 
 		return (
-			<main className="content-container">
+			<main className="content-container" data-spy="scroll" data-target="#list-example" data-offset="0" >
 				<TaglineImage contentList={contentList} />
 				<About contentList={contentList} />
 				<Skills contentList={contentList} />

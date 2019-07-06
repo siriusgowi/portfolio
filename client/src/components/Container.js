@@ -12,9 +12,9 @@ const Container = () => {
 
 	return (
 		<div className="website-container">
+			<NavbarOverlay />
 			<SidebarList />
 			<ContentList />
-			<NavbarOverlay />
 		</div>
 	);
 
