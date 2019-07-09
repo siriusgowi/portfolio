@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const morgan = require('morgan');
 const path = require('path');
 const sgMail = require('@sendgrid/mail');
 const keys = require('./config/keys');
@@ -11,7 +10,6 @@ const keys = require('./config/keys');
 
 // middleware
 app.use(cors());
-app.use(morgan('combined'));
 app.use(express.urlencoded( {extended: false} ));
 app.use(express.json());
 
