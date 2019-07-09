@@ -6,7 +6,8 @@ class Contact extends Component {
 	state = {
 		name: "",
 		email: "",
-		message: ""
+		message: "",
+		successMsg: ""
 	}
 
 
@@ -22,12 +23,21 @@ class Contact extends Component {
 
 		axios.post('/', { newEmail })
 			.then(res => {
-				console.log(res);
-				console.log(res.data);
+				this.setState({
+					...this.state,
+					successMsg: 'Message was sent!'
+				})
 			})
 			.catch(err => {
 				console.log(err);
 			});
+
+		this.setState({
+			name: '',
+			email: '',
+			message: ''
+		});
+
 	}
 
 	handleChange = (evt) => {
