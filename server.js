@@ -1,25 +1,32 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+const morgan = require('morgan');
 const path = require('path');
-// config
+const sgMail = require('@sendgrid/mail');
 const keys = require('./config/keys');
 
 
 
 
 // middleware
+app.use(cors());
+app.use(morgan('combined'));
 app.use(express.urlencoded( {extended: false} ));
 app.use(express.json());
 
 
-// @route 			GET /data
-// @description 	Get website data. Request made via react 'Container' component
-// @access 			Public
-app.get('/data', (req,res) => {
-	res.status(200).json(data);
+// Routes
+app.post('/', (req, res) => {
+	sgMail.setApiKey(keys.sendgridKey);
+
+	sgMail.send({
+	  to: keys.email,
+	  from: req.body.newEmail.email,
+	  subject: 'Portfolio Website Message',
+	  text: req.body.newEmail.message
+	});
 });
-
-
 
 
 
