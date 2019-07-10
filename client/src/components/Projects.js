@@ -14,14 +14,14 @@ const Projects = (props) => {
 			{!projects ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header" id="list-item-3">{projects.title}</h2>
+					<h2 className="header" id="projects">{projects.title}</h2>
 					<div className="projects">
 						<div className="container">
 							<div className="row">
 								<div className="card-group">
 
 
-									<div className="col-lg-4 mb-4">
+									<div className="col-lg-4 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.booktracking.imgURL}`} alt={projects.booktracking.imgAlt} />
 									    <div className="card-body">
@@ -39,7 +39,7 @@ const Projects = (props) => {
 									  </div>
 									</div>
 
-									<div className="col-lg-4 mb-4">
+									<div className="col-lg-4 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.edgtacy.imgURL}`} alt={projects.edgtacy.imgAlt} />
 									    <div className="card-body">
@@ -57,7 +57,7 @@ const Projects = (props) => {
 									  </div>
 									</div>
 
-									<div className="col-lg-4 mb-4">
+									<div className="col-lg-4 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.restaurantreview.imgURL}`} alt={projects.restaurantreview.imgAlt} />
 									    <div className="card-body">

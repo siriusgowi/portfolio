@@ -13,7 +13,7 @@ const About = (props) => {
 
 			{!about ? (<p>Loading...</p>) : (
 				<Fragment>
-					<h2 className="header mt" id="list-item-1">{about.title}</h2>
+					<h2 className="header mt" id="about">{about.title}</h2>
 					<div className="about">
 						<div className="container">
 							<div className="row">

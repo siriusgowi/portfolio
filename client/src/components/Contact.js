@@ -54,7 +54,7 @@ class Contact extends Component {
 		return (
 
 			<Fragment>
-				<h2 className="header" id="list-item-6">Contact</h2>
+				<h2 className="header" id="contact">Contact</h2>
 				<div className="contact">
 
 					<div className="container">

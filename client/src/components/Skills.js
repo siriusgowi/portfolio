@@ -13,11 +13,11 @@ const Skills = (props) => {
 			{!skills ? (<p>Loading...</p>) : (
 
 			<Fragment>
-				<h2 className="header" id="list-item-2">{skills.title}</h2>
+				<h2 className="header" id="skills">{skills.title}</h2>
 				<div className="skills">
 					<div className="container">
 
-			  				<div className="card">
+			  				<div className="card my-3">
 			  					<div className="card-content">
 			  						<h4>{skills.frontend.title}</h4>
 			  						<div className="row">
@@ -37,7 +37,7 @@ const Skills = (props) => {
 			  					</div>
 			  				</div>
 
-			  				<div className="card">
+			  				<div className="card my-3">
 			  					<div className="card-content">
 			  						<h4 className="mt-4">{skills.backend.title}</h4>
 			  						<div className="row">
@@ -53,7 +53,7 @@ const Skills = (props) => {
 			  					</div>
 			  				</div>
 
-			  				<div className="card">
+			  				<div className="card my-3">
 			  					<div className="card-content">
 			  						<h4 className="mt-4">{skills.databases.title}</h4>
 			  						<div className="row">
@@ -69,7 +69,7 @@ const Skills = (props) => {
 			  					</div>
 			  				</div>
 
-			  				<div className="card">
+			  				<div className="card my-3">
 			  					<div className="card-content">
 			  						<h4 className="mt-4">{skills.frameworks.title}</h4>
 			  						<div className="row">

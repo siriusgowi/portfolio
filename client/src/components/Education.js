@@ -14,13 +14,13 @@ const Education = (props) => {
 			{!education ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header" id="list-item-5">{education.title}</h2>
+					<h2 className="header" id="education">{education.title}</h2>
 					<div className="education">
 						<div className="container">
 
 							<div className="row">
 								<div className="col">
-									<div className="card">
+									<div className="card my-3">
 
 									  <div className="card-header">
 									  	<div className="row">
@@ -40,7 +40,7 @@ const Education = (props) => {
 
 							<div className="row">
 								<div className="col">
-									<div className="card">
+									<div className="card my-3">
 
 									  <div className="card-header">
 									  	<div className="row">
@@ -60,7 +60,7 @@ const Education = (props) => {
 
 							<div className="row">
 								<div className="col">
-									<div className="card">
+									<div className="card my-3">
 
 									  <div className="card-header">
 									  	<div className="row">

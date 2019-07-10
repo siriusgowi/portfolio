@@ -14,12 +14,12 @@ const Experience = (props) => {
 			{!experience ? (<p>Loading...</p>) : (
 				<Fragment>
 
-					<h2 className="header" id="list-item-4">{experience.title}</h2>
+					<h2 className="header" id="experience">{experience.title}</h2>
 					<div className="experience">
 						<div className="container">
 							<div className="row">
 								<div className="col">
-									<div className="card">
+									<div className="card my-3">
 
 									  <div className="card-header">
 									  	<div className="row">
@@ -56,7 +56,7 @@ const Experience = (props) => {
 
 							<div className="row">
 								<div className="col">
-									<div className="card">
+									<div className="card my-3">
 
 									  <div className="card-header">
 									  	<div className="row">
