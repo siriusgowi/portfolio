@@ -1,3 +1,4 @@
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -9,6 +10,7 @@ const keys = require('./config/keys');
 
 
 // middleware
+app.use(sslRedirect());
 app.use(cors());
 app.use(express.urlencoded( {extended: false} ));
 app.use(express.json());
