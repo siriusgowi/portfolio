@@ -150,10 +150,12 @@ export const data = {
 				"imgAlt": "EdgTacy",
 				"role": "Founder & Developer",
 				"date": "Aug 2016 - Feb 2018",
-				"bullet01": "Designed and programmed e-commerce site for portrait retouching using Photoshop",
-				"bullet02": "Applied responsive web design to make site inviting across an array of devices",
-				"bullet03": "Incorporated MySQL for data-management",
-				"bullet04": "Implemented Authorize.net as a payment gateway"
+				"bullet01": "Led Ecommerce site design and development providing portrait retouching service using Photoshop",
+				"bullet02": "Established marketing and business development strategy in an entrepreneurial environment",
+				"bullet03": "Created comprehensive mockup sketches and structured database design",
+				"bullet04": "Integrated MySQL data-management system to store information",
+				"bullet05": "Applied responsive web design to make site inviting across an array of devices",
+				"bullet06": "Implemented Authorize.net as a payment gateway to streamline operations"
 			},
 			"navy": {
 				"company": "United States Navy",
@@ -161,9 +163,10 @@ export const data = {
 				"imgAlt": "Navy",
 				"role": "Undesignated",
 				"date": "Oct 2004 - Oct 2008",
-				"bullet01": "Worked with superiors to accomplish team objectives",
-				"bullet02": "Helped treat patients at military base clinic while also protecting the confidentiality of all information related to patient care",
-				"bullet03": "Rewarded Achievement Medal from Navy and Army, Good Conduct Medal and Iraq Campaign Medal"
+				"bullet01": "Completed annual awareness training in cyber-security, information management, and network security matters",
+				"bullet02": "Conducted gap analysis and introduced process improvements leading to efficiency gains and cost reductions",
+				"bullet03": "Collaborated with cross-functional teams to achieve strategic objectives",
+				"bullet04": "Recognized across multiple categories for exceptional performance and contribution in high-pressure, high-profile situations and consistently ranked among top producers"
 			}
 		},
 

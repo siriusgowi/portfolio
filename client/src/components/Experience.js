@@ -43,6 +43,12 @@ const Experience = (props) => {
 									  		<li>
 									  			{experience.edgtacy.bullet04}
 									  		</li>
+									  		<li>
+									  			{experience.edgtacy.bullet05}
+									  		</li>
+									  		<li>
+									  			{experience.edgtacy.bullet06}
+									  		</li>
 									  	</ul>
 									  </div>
 
@@ -76,6 +82,9 @@ const Experience = (props) => {
 									  		</li>
 									  		<li>
 									  			{experience.navy.bullet03}
+									  		</li>
+									  		<li>
+									  			{experience.navy.bullet04}
 									  		</li>
 									  	</ul>
 									  </div>
