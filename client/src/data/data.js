@@ -116,25 +116,24 @@ export const data = {
 
 		"projects": {
 			"title": "Projects",
-			"booktracking": {
-				"title": "BookTracking App",
-				"imgURL": "booktracking-app.png",
-				"imgAlt": "BookTracking App",
-				"projectURL": "https://alvarado-booktracking-app.herokuapp.com",
-				"codeURL": "https://github.com/jalvaradoas39/book-tracking-app",
-				"desc": "This application allows the user to select and categorize books that he/she has read, are currently reading, or want to read. There are two main pages, the home page for displaying the bookshelves and search page for allowing the user to search books. React was used to build the application. An API server and client library was used to persist data as the user interacts with the application."
+			"ecommercemia": {
+				"title": "Ecommerce (EcommerceMIA)",
+				"imgURL": "project-ecommercemia.jpg",
+				"imgAlt": "EcommerceMIA",
+				"projectURL": "https://www.ecommercemia.com",
+				"desc": "Online store built with features and services such as: responsive design to work seamlessly across multiple devices (i.e desktop, laptop, tablet, mobile), payment gateways (i.e PayPal, Stripe) to process payments, SSL encryption to enhance security, coupon code functionality, product filters (i.e 'Filter by price'), Up-Sell & Cross-Sell functionality (i.e 'Related Products'), live chat support, inventory & stock management and social media links."
 			},
 			"restaurantreview": {
-				"title": "Restaurant Reviews App",
-				"imgURL": "restaurant-app.png",
+				"title": "Restaurant App",
+				"imgURL": "project-restaurant.jpg",
 				"imgAlt": "Restaurant Reviews App",
 				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
 				"codeURL": "https://github.com/jalvaradoas39/restaurant-review-app",
 				"desc": "This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address."
 			},
 			"edgtacy": {
-				"title": "Ecommerce",
-				"imgURL": "edgtacy-app.png",
+				"title": "Ecommerce (EdgTacy)",
+				"imgURL": "project-edgtacy.jpg",
 				"imgAlt": "E-Commerce App",
 				"projectURL": "https://edgtacy.herokuapp.com/",
 				"codeURL": "https://github.com/jalvaradoas39/edgtacy",

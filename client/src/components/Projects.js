@@ -23,16 +23,16 @@ const Projects = (props) => {
 
 									<div className="col-lg-4 my-5">
 									  <div className="card project-card">
-									    <img className="card-img-top" src={`/images/${projects.booktracking.imgURL}`} alt={projects.booktracking.imgAlt} />
+									    <img className="card-img-top" src={`/images/${projects.ecommercemia.imgURL}`} alt={projects.ecommercemia.imgAlt} />
 									    <div className="card-body">
-									      <h5 className="card-title">{projects.booktracking.title}</h5>
-									      <p className="card-text">{projects.booktracking.desc}</p>
+									      <h5 className="card-title">{projects.ecommercemia.title}</h5>
+									      <p className="card-text">{projects.ecommercemia.desc}</p>
 									    </div>
 									    <div className="card-footer">
 									      <small className="text-muted">
 									      	<ul className="technologies-used">
-									      		<li><a href={projects.booktracking.projectURL} target="_blank" rel='noopener noreferrer'>View Online</a></li>
-									      		<li><a href={projects.booktracking.codeURL} target="_blank" rel='noopener noreferrer'>View Source</a></li>
+									      		<li><a href={projects.ecommercemia.projectURL} target="_blank" rel='noopener noreferrer'>View Online</a></li>
+									      		<li><a href={projects.ecommercemia.codeURL} target="_blank" rel='noopener noreferrer'>View Source</a></li>
 									      	</ul>
 									      </small>
 									    </div>
