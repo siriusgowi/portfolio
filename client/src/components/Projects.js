@@ -21,7 +21,7 @@ const Projects = (props) => {
 								<div className="card-group">
 
 
-								<div className="col-lg-4 my-5">
+								<div className="col-lg-6 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.spigaza.imgURL}`} alt={projects.spigaza.imgAlt} />
 									    <div className="card-body">
@@ -39,7 +39,7 @@ const Projects = (props) => {
 									  </div>
 									</div>
 
-									<div className="col-lg-4 my-5">
+									<div className="col-lg-6 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.ecommercemia.imgURL}`} alt={projects.ecommercemia.imgAlt} />
 									    <div className="card-body">
@@ -57,7 +57,7 @@ const Projects = (props) => {
 									  </div>
 									</div>
 
-									<div className="col-lg-4 my-5">
+									<div className="col-lg-6 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.edgtacy.imgURL}`} alt={projects.edgtacy.imgAlt} />
 									    <div className="card-body">
@@ -75,7 +75,7 @@ const Projects = (props) => {
 									  </div>
 									</div>
 
-									<div className="col-lg-4 my-5">
+									<div className="col-lg-6 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.restaurantreview.imgURL}`} alt={projects.restaurantreview.imgAlt} />
 									    <div className="card-body">
