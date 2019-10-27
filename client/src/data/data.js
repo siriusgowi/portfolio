@@ -128,7 +128,7 @@ export const data = {
 				"imgURL": "project-spigaza.jpg",
 				"imgAlt": "Spigaza",
 				"projectURL": "https://www.spigaza.com",
-				"desc": "Restaurant website with online ordering system built with features and services such as: responsive design to work seamlessly across multiple devices (i.e desktop, laptop, tablet, mobile), payment gateways (i.e PayPal, Stripe) to process payments, SSL encryption to enhance security, coupon code functionality, product filters (i.e 'Filter by price'), Up-Sell & Cross-Sell functionality (i.e 'Related Products'), live chat support, inventory & stock management and social media links."
+				"desc": "Clean and modern restaurant website with food delivery system that looks great on all devices. Some of the features include a contact form, payment gateways (i.e PayPal, Stripe, payment on delivery) to process payments, SSL encryption to enhance security, coupon code functionality, product filters, Up-Sell & Cross-Sell functionality and social media links."
 			},
 			"edgtacy": {
 				"title": "Ecommerce (EdgTacy)",
