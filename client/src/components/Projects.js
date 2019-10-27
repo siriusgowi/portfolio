@@ -21,6 +21,24 @@ const Projects = (props) => {
 								<div className="card-group">
 
 
+								<div className="col-lg-4 my-5">
+									  <div className="card project-card">
+									    <img className="card-img-top" src={`/images/${projects.spigaza.imgURL}`} alt={projects.spigaza.imgAlt} />
+									    <div className="card-body">
+									      <h5 className="card-title">{projects.spigaza.title}</h5>
+									      <p className="card-text">{projects.spigaza.desc}</p>
+									    </div>
+									    <div className="card-footer">
+									      <small className="text-muted">
+									      	<ul className="technologies-used">
+									      		<li><a href={projects.spigaza.projectURL} target="_blank" rel='noopener noreferrer'>View Online</a></li>
+									      		<li><a href={projects.spigaza.codeURL} target="_blank" rel='noopener noreferrer'>View Source</a></li>
+									      	</ul>
+									      </small>
+									    </div>
+									  </div>
+									</div>
+
 									<div className="col-lg-4 my-5">
 									  <div className="card project-card">
 									    <img className="card-img-top" src={`/images/${projects.ecommercemia.imgURL}`} alt={projects.ecommercemia.imgAlt} />
