@@ -123,13 +123,12 @@ export const data = {
 				"projectURL": "https://www.ecommercemia.com",
 				"desc": "Online store built with features and services such as: responsive design to work seamlessly across multiple devices (i.e desktop, laptop, tablet, mobile), payment gateways (i.e PayPal, Stripe) to process payments, SSL encryption to enhance security, coupon code functionality, product filters (i.e 'Filter by price'), Up-Sell & Cross-Sell functionality (i.e 'Related Products'), live chat support, inventory & stock management and social media links."
 			},
-			"restaurantreview": {
-				"title": "Restaurant App",
-				"imgURL": "project-restaurant.jpg",
-				"imgAlt": "Restaurant Reviews App",
-				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
-				"codeURL": "https://github.com/jalvaradoas39/restaurant-review-app",
-				"desc": "This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address."
+			"spigaza": {
+				"title": "Ecommerce (Spigaza)",
+				"imgURL": "project-spigaza.jpg",
+				"imgAlt": "Spigaza",
+				"projectURL": "https://www.spigaza.com",
+				"desc": "Restaurant website with online ordering system built with features and services such as: responsive design to work seamlessly across multiple devices (i.e desktop, laptop, tablet, mobile), payment gateways (i.e PayPal, Stripe) to process payments, SSL encryption to enhance security, coupon code functionality, product filters (i.e 'Filter by price'), Up-Sell & Cross-Sell functionality (i.e 'Related Products'), live chat support, inventory & stock management and social media links."
 			},
 			"edgtacy": {
 				"title": "Ecommerce (EdgTacy)",
@@ -138,6 +137,14 @@ export const data = {
 				"projectURL": "https://edgtacy.herokuapp.com/",
 				"codeURL": "https://github.com/jalvaradoas39/edgtacy",
 				"desc": "As the Founder and principal engineer of EdgTacy, I shaped the design and implementation of software and web-based solutions. Integrated MySQL data-management system to store information. Applied responsive web design for device optimization to engage consumers through multi-channel marketing. Implemented Authorize.net as a payment gateway to streamline operations."
+			},
+			"restaurantreview": {
+				"title": "Restaurant App",
+				"imgURL": "project-restaurant.jpg",
+				"imgAlt": "Restaurant Reviews App",
+				"projectURL": "https://alvarado-restaurant-review-app.herokuapp.com",
+				"codeURL": "https://github.com/jalvaradoas39/restaurant-review-app",
+				"desc": "This responsive website was built to allow users to search restaurants filtered by location and cuisine type. Google Maps API was added to display markers of restaurants based on filtered results. Additionally, results allow the user to view further details about the restaurant such as hours of operation, reviews and address."
 			}
 		},
 
